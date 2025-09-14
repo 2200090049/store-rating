@@ -1,0 +1,63 @@
+{
+  "name": "store-rating",
+  "version": "1.0.0",
+  "description": "A comprehensive Node.js application for rating and reviewing stores with user authentication and data management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rating",
+    "reviews",
+    "authentication",
+    "jwt"
+  ],
+  "author": "2200090049@kluniversity.in",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "cloudinary": "^1.40.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "cookie-parser": "^1.4.6",
+    "express-session": "^1.17.3",
+    "connect-mongo": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.2",
+    "@types/jest": "^29.5.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2200090049/store-rating.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2200090049/store-rating/issues"
+  },
+  "homepage": "https://github.com/2200090049/store-rating#readme"
+}
