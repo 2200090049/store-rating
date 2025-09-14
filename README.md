@@ -42,51 +42,8 @@ This application allows users to discover, rate, and review local stores. It pro
 - Real-time notifications
 - Analytics dashboard for store owners
 
-## Technology Stack
 
-### Backend
-- **Runtime**: Node.js
-- **Framework**: Express.js
-- **Database**: MongoDB with Mongoose ODM
-- **Authentication**: JWT (JSON Web Tokens)
-- **File Upload**: Multer for image handling
-- **Email Service**: Nodemailer
-- **Validation**: Joi or express-validator
-- **Security**: Helmet, bcrypt, rate limiting
 
-### Frontend
-- **Template Engine**: EJS or React (depending on approach)
-- **Styling**: CSS3, Bootstrap or Tailwind CSS
-- **JavaScript**: ES6+
-- **Maps Integration**: Google Maps API or OpenStreetMap
-
-### Development Tools
-- **Package Manager**: npm
-- **Process Manager**: PM2 (production)
-- **Code Formatting**: Prettier
-- **Linting**: ESLint
-- **Testing**: Jest or Mocha
-
-## Installation and Setup
-
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (local or cloud instance)
-- npm or yarn package manager
-
-### Environment Variables
-Create a `.env` file in the root directory:
-
-```env
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/store-rating
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRE=30d
-EMAIL_SERVICE=gmail
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-GOOGLE_MAPS_API_KEY=your-google-maps-api-key
-```
 
 ### Installation Steps
 
@@ -214,45 +171,7 @@ npm start
 - File upload restrictions and validation
 - Environment variable protection
 
-## Testing Strategy
 
-- Unit tests for utility functions
-- Integration tests for API endpoints
-- Authentication and authorization testing
-- Database operation testing
-- File upload testing
-- Error handling testing
-
-## Deployment
-
-### Production Environment
-- **Hosting**: Heroku, DigitalOcean, or AWS
-- **Database**: MongoDB Atlas
-- **File Storage**: AWS S3 or Cloudinary
-- **Domain**: Custom domain with SSL certificate
-- **Monitoring**: Application monitoring and logging
-
-### Environment Setup
-1. Set up production database
-2. Configure environment variables
-3. Set up file storage service
-4. Configure email service
-5. Set up domain and SSL
-6. Deploy application
-7. Set up monitoring and logging
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new features
-5. Ensure all tests pass
-6. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
@@ -260,10 +179,4 @@ For questions or support, please contact:
 - Email: 2200090049@kluniversity.in
 - GitHub: [@2200090049](https://github.com/2200090049)
 
-## Version History
 
-- **v1.0.0** - Initial project setup with basic requirements
-
----
-
-**Note**: This README will be updated as the project develops. Please ensure to keep the `.env` file secure and never commit it to version control.
